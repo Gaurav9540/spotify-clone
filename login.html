@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="./assets/Spotify Black Logo PNG.webp" type="image/png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Spotify</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-container">
+
+        <img src="./assets/logo.png" alt="Google" class="login-icon">
+
+        <h1>Log in to Spotify</h1>
+
+        <button class="login-btn">
+            <img src="./assets/google.png" alt="Google" class="icon"> Continue with Google
+        </button>
+
+        <button class="login-btn">
+            <img src="./assets/facebook.png" alt="Facebook" class="icon"> Continue with Facebook
+        </button>
+
+        <button class="login-btn">
+            <img src="./assets/Apple-logo-white-png.webp" alt="Apple" class="Apple"> Continue with Apple
+        </button>
+        
+        <button class="login-btn">Continue with phone number</button>
+
+        <br><br>
+
+        <input class="input-field" type="text" placeholder="Email or username">
+        
+        <div class="password-container">
+            <input id="password" class="input-field" type="password" placeholder="Password">
+            <img src="./assets/eye-xxl.png" alt="Toggle Password" class="ey" onclick="togglePassword()">
+        </div>        
+
+        <button class="login-submit">Log In</button>
+
+        <br><br>
+
+        <a href="#" style="color: white;">Forgot your password</a>
+        <br><br>
+
+        <p>Don't have an account? <a href="#" style="color: white;">Sign up for Spotify</a></p>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

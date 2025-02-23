@@ -3,21 +3,25 @@ body{
     margin: 0;
     background-color: black;
     color: white;
-    /* overflow-y: hidden; */
-}
-.main{
-    display: flex;
-    height: 100vh;
-    padding: 0.6rem;
+    overflow: hidden;
 }
 
-.sidebar{
+.main {
+    display: flex;
+    height: calc(100vh - 72px);
+    padding: 0.6rem;
+    overflow: hidden;
+}
+
+.sidebar {
     background-color: black;
     width: 340px;
     border-radius: 1rem;
     margin-right: 0.5rem;
     height: 100%;
+    /* overflow: auto;      left side scrollbar */
 }
+
 .main-content{
     background-color: #121212;
     flex: 1;
@@ -25,6 +29,7 @@ body{
     overflow: auto;
     padding: 0 1.5rem 0 1.5rem;
 }
+
 .music-player{
     background-color: black;
     position: fixed;
@@ -182,6 +187,7 @@ a{
     justify-content: space-between;
     align-items: center;
 }
+
 .album{
     width: 25%;
     display: flex;
@@ -284,4 +290,8 @@ a{
     font-size: 0.7rem;
     color: gray;
     margin: 0;
+}
+
+.music-player {
+    
 }

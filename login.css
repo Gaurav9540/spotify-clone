@@ -1,0 +1,100 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #121212;
+    padding: 5px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 700px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.login-btn {
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 13px;
+    width: 50%;
+    font-weight: bold;
+    margin: 10px auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.login-btn img.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.login-icon {
+    width: 40px;
+    height: 40px;
+    padding-top: 15px;
+}
+
+.Apple{
+    width: 20px;
+    height: 22px;
+}
+
+.eye{
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+
+.password-container {
+    position: relative;
+    width: 100%;
+}
+
+.ey {
+    position: absolute;
+    right: 175px;  /* Position it inside the input field */
+    top: 50%;
+    transform: translateY(-85%);
+    width: 20px;  /* Adjust the size of the eye icon */
+    height: 20px;
+    cursor: pointer;
+}
+
+.input-field {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    width: 50%;
+    margin-bottom: 15px;
+    border: 1px solid white;
+}
+
+.login-submit {
+    background-color: #1DB954;
+    color: #000000;
+    border: none;
+    border-radius: 50px;
+    padding: 15px;
+    width: 50%;
+    font-weight: bold;
+    cursor: pointer;
+}
