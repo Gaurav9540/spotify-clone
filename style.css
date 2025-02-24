@@ -30,13 +30,14 @@ body{
     padding: 0 1.5rem 0 1.5rem;
 }
 
-.music-player{
+/* .music-player{
     background-color: black;
     position: fixed;
     bottom: 0;
     width: 100%;
     height: 72px;
-}
+} */
+
 a{
     text-decoration: none;
     color: white;
@@ -65,6 +66,9 @@ a{
 .nav-options a{
     font-size: 1rem;
     margin-left: 1rem;
+}
+.nav-item {
+    cursor: pointer;
 }
 
 .library{
@@ -295,3 +299,44 @@ a{
 .music-player {
     
 }
+
+/* bottom bar css */
+.bottom-signup-bar {
+    position: fixed;
+    bottom: 8px;
+    left: 10px;
+    width: 97%;
+    height: 40px;
+    background: linear-gradient(90deg, #8000ff, #1db954);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.bottom-signup-bar p {
+    margin: 0;
+    font-size: 0.9em;
+    font-size: 1.4;
+    text-align: left;
+}
+
+.bottom-signup-bar button {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.bottom-signup-bar button:hover {
+    background-color: #f0f0f0;
+}
+
